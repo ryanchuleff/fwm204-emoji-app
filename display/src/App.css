@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+}
+
+.CodeWrapper {
+  position: absolute;
+  width: 100%;
+}
+
+.CodeBlock {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  color: white;
+  align-items: center;
+  height: 100vh;
+}
+
+.Left, .Right {
+  height: 600px
+}
+
+#emoji-body {
+    background-image: url("/bkgrnd.png");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+  
+    /* padding: 20px 30px; */
+    height: 100vh;
+    width: 100%;
+
+    position: relative;
+    overflow: hidden;
+  }
